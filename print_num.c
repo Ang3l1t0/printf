@@ -3,21 +3,21 @@
  * @n: integer to print
  * Return: void
  */
-void print_number(int n)
+void print_number(int numero)
 {
-        unsigned int n1;
+        unsigned int numero_neg;
 
-        if (n < 0)
+        if (numero < 0)
         {
                 _putchar('-');
-                n1 = -n;
+                numero_neg = -numero;
         }
         else{
-                n1 = n;
+                numero_neg = numero;
         }
-        if (n1 / 10){
-                print_number(n1 / 10);
-        _putchar((n1 % 10) + '0');
+        if (numero_neg / 10){
+                print_number(numero_neg / 10);
+        _putchar((numero_neg % 10) + '0');
         }
 }
 
