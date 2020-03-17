@@ -1,10 +1,10 @@
 #include "holberton.h"
+
 /**
  * check_specifiers - check for a valid format
  * @format: format specifier
  * Return: pointer to valid function or null
  */
-
 static int (*check_specifiers(const char *format))(va_list)
 {
 	unsigned int i;
@@ -27,9 +27,8 @@ static int (*check_specifiers(const char *format))(va_list)
 /**
  * _printf - prints anything
  * @format: list of arguments passed to the function
- * Return: number of character
+ * Return: number of character printed
  */
-
 int _printf(const char *format, ...)
 {
 	unsigned int i = 0, count = 0;
