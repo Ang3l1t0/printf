@@ -1,11 +1,10 @@
 #include "holberton.h"
-#include <stdlib.h>
+
 /**
  * print_char - print a char
  * @arg: argument to print
  * Return: always 1.
  */
-
 int print_char(va_list arg)
 {
 	char ch = (char)va_arg(arg, int);
