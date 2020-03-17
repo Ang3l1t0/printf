@@ -20,12 +20,12 @@ int print_char(va_list arg)
  */
 int print_string(va_list arg)
 {
-	int i;
+	int count;
 	char *str = va_arg(arg, char*);
 
 	if (str == NULL)
-		str = "(NULL)";
-	for (i = 0; str[i]; i++)
-		_putchar(str[i]);
-	return (i);
+		str = "(null)";
+	for (count = 0; str[count]; count++)
+		_putchar(str[count]);
+	return (count);
 }
