@@ -3,7 +3,6 @@
 
 #include <stdarg.h>
 #include <stdlib.h>
-#include <unistd.h>
 
 /**
  * struct print_format - structure for print
@@ -21,4 +20,6 @@ int _putchar(char c);
 int _printf(const char *format, ...);
 int print_char(va_list arg);
 int print_string(va_list arg);
+void print_number(int numero);
+
 #endif
