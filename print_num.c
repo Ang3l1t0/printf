@@ -1,3 +1,5 @@
+#include "holberton.h"
+
 /**
  * print_int - prints a number
  * @n: number to print
@@ -97,3 +99,5 @@ int switch_flag(char s, flags_Validator *f)
 
 	return (i);
 }
+
+
