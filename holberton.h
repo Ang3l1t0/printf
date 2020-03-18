@@ -16,28 +16,11 @@ typedef struct print_format
 	int (*f)();
 } pt;
 
-/**
- * struct flags - Use for Switch the character which represent
- * @plus: character '+'
- * @space: character ' '
- * @hash: characer '#'
- */
-typedef struct flags
-{
-	int plus;
-	int space;
-	int hash;
-} flags_Validator;
-
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_char(va_list arg);
 int print_string(va_list arg);
-
-
-int print_int_Number(va_list l, flags_Validator *f);
-void print_number(int number);
-int print_unsigned(va_list l, flags_Validator *f);
-int counter(int i);
+int print_int(va_list i);
+int print_dec(va_list d);
 
 #endif
