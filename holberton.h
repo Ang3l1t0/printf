@@ -33,6 +33,9 @@ int _putchar(char c);
 int _printf(const char *format, ...);
 int print_char(va_list arg);
 int print_string(va_list arg);
+
+
 void print_int_number(va_list l, flags_Validator *f);
+
 
 #endif
