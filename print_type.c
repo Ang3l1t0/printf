@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * print_char - print a char
  * @arg: argument to print
