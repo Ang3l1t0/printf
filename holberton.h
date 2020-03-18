@@ -35,7 +35,9 @@ int print_char(va_list arg);
 int print_string(va_list arg);
 
 
-void print_int_number(va_list l, flags_Validator *f);
-
+int print_int_Number(va_list l, flags_Validator *f);
+void print_number(int number);
+int print_unsigned(va_list l, flags_Validator *f);
+int counter(int i);
 
 #endif
