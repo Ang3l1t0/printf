@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * check_specifiers - check for a valid format
+ * check_specifiers - check  a valid format
  * @format: format specifier
  * Return: pointer to valid function or null
  */
