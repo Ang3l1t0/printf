@@ -26,7 +26,7 @@ You can use any of the `main.c` found in the [test](./test) folder.
 Files are compiled this way:
 
 ```
-$ gcc -Wall -Wno-format -Werror -Wextra -pedantic *.c 
+$ gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
 $ ./a.out
 ```
 
